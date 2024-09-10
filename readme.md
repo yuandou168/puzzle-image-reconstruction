@@ -1,18 +1,32 @@
-:rocket: Challenge Alert: Image Reconstruction Puzzle! :jigsaw:
+# Image Reconstruction Challenge
 
-Hey everyone! We’re excited to announce an Image Reconstruction Challenge with a real dataset!
+Welcome to the Image Reconstruction Challenge! 🎉
 
-The Challenge:
-We’ve got a set of 224x224 pixel cropped images, but we don’t know their original positions! Your goal is to reconstruct the original image using your computer vision skills and creativity.
-:mag: Dataset and Code: Check out the full dataset and challenge details on GitHub: [Image Reconstruction Challenge](https://github.com/yuandou168/puzzle-image-reconstruction)
+### Challenge Description:
+We have a set of cropped images, each of size **224x224 pixels**, but we don't know their original positions! Your challenge is to **reconstruct the original image** using computer vision techniques.
 
-:dart: What you’ll need:
-OpenCV, feature matching (SIFT, ORB, etc.)
-A passion for solving puzzles!
+### Dataset:
+Download the dataset from the `dataset` folder. The dataset contains multiple cropped images that need to be stitched together.
 
-:bulb: How to participate:
-Clone the repository from the link above.
-Use feature detection and image alignment to reconstruct the original image.
-Share your solution by submitting a pull request or posting your approach in this thread!
+### What You'll Need:
+- Python (3.6+)
+- OpenCV
+- NumPy
+- **Jupyter Notebook** (recommended for sharing your solution)
+- Any additional libraries you may want to use (e.g., SIFT, ORB)
 
-Let’s see who can solve this image puzzle! :tada:
+### How to Approach:
+1. **Download the dataset** from this repository.
+2. Use feature matching (e.g., ORB, SIFT) to align and stitch the images together.
+3. **Share your solution using a Jupyter Notebook** for detailed explanations, visualizations, and code snippets.
+
+### Why Jupyter Notebooks?
+Jupyter Notebooks allow you to combine code, explanations, and visualizations in a single document. This is a great way to showcase your approach, display intermediate results, and explain your thought process. You can:
+- Explain the logic behind each step.
+- Show key parts of your code.
+- Visualize the reconstruction process with images.
+
+To run the notebook:
+```bash
+pip install jupyter
+jupyter notebook
